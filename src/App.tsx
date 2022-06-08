@@ -1,3 +1,4 @@
+import { Foo } from "@components/foo";
 import { Hello } from "@components/hello";
 import { Sample } from "@components/sample";
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Hello />
       <Sample />
+      <Foo />
     </div>
   );
 }
